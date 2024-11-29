@@ -18,8 +18,8 @@ namespace WBFSManager
         {
             try
             {
-                SplashScreen splashScreen = new SplashScreen("content/wbfsmanager%20bannerNew.png");
-                splashScreen.Show(true);
+                //SplashScreen splashScreen = new SplashScreen("content/wbfsmanager%20bannerNew.png");
+                //splashScreen.Show(true);
                 WBFSManager.App app = new WBFSManager.App();
                 app.InitializeComponent();
                 app.Run();

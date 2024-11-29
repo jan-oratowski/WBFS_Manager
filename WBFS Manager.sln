@@ -1,16 +1,20 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libeay64", "libeay64", "{0693A2B1-CFC7-461A-A0B5-929FF97A04B4}"
+	ProjectSection(SolutionItems) = preProject
+		libeay64\libeay32.dll = libeay64\libeay32.dll
+	EndProjectSection
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WBFSManager", "WBFS Manager\WBFSManager.csproj", "{8FCC6C95-D3A1-4430-947B-FEC9254821E6}"
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WBFSManager1Setup - x86", "WBFSManager1Setup\WBFSManager1Setup.vdproj", "{463F17C3-378C-4712-991E-A34562103526}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libwbfs", "libwbfs\libwbfs.vcproj", "{6D70B4AB-53E0-4C08-8345-DF95820990E7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libwbfs", "libwbfs\libwbfs.vcxproj", "{6D70B4AB-53E0-4C08-8345-DF95820990E7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libwbfsNETwrapper", "libwbfsNETwrapper\libwbfsNETwrapper.vcproj", "{C80EA20B-021F-4CEF-9C1D-472EFA7254DB}"
-	ProjectSection(ProjectDependencies) = postProject
-		{6D70B4AB-53E0-4C08-8345-DF95820990E7} = {6D70B4AB-53E0-4C08-8345-DF95820990E7}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libwbfsNETwrapper", "libwbfsNETwrapper\libwbfsNETwrapper.vcxproj", "{C80EA20B-021F-4CEF-9C1D-472EFA7254DB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libwbfsNET", "libwbfsNET\libwbfsNET.csproj", "{BDAC622A-4C33-415C-BF6F-DD58C2D2C1A4}"
 EndProject
@@ -20,22 +24,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnRarNET", "UnRarNET\UnRarN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssUpdater", "RssUpdater\RssUpdater.csproj", "{B7B7C446-2884-497A-A450-948C26B788EB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChannelCreation", "ChannelCreation\ChannelCreation.vcproj", "{9DFC3AD0-478D-4C5B-ACAB-F5EEC4FDC10E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChannelCreation", "ChannelCreation\ChannelCreation.vcxproj", "{9DFC3AD0-478D-4C5B-ACAB-F5EEC4FDC10E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChannelCreationWrapper", "ChannelCreationWrapper\ChannelCreationWrapper.csproj", "{600528EB-8711-4340-8BD9-6AFADE12A57E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bannerExtractionWrapper", "bannerExtractionWrapper\bannerExtractionWrapper.vcproj", "{75E96086-50DA-4980-9D34-7AB4ED14C9E6}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libeay64", "libeay64", "{0693A2B1-CFC7-461A-A0B5-929FF97A04B4}"
-	ProjectSection(SolutionItems) = preProject
-		libeay64\libeay32.dll = libeay64\libeay32.dll
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bannerExtractionWrapper", "bannerExtractionWrapper\bannerExtractionWrapper.vcxproj", "{75E96086-50DA-4980-9D34-7AB4ED14C9E6}"
 EndProject
 Global
-	GlobalSection(SubversionScc) = preSolution
-		Svn-Managed = True
-		Manager = AnkhSVN - Subversion Support for Visual Studio
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 		Debug|x64-Installers = Debug|x64-Installers
@@ -214,5 +209,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0303AF75-0CFB-495C-AFC0-A41FF03BB0DB}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
 	EndGlobalSection
 EndGlobal

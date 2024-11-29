@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.IO;
 using System.Net;
 using System.Text;
+using System.Windows;
 using System.Xml.Linq;
 using libwbfsNET;
 using UnRarNET;
